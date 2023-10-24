@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a <br /><span>Random Password</span></h1>
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" />
+        <img
+          onclick="copyPassword()"
+          src="https://img.icons8.com/pastel-glyph/64/copy--v1.png"
+          alt="copy--v1"
+        />
+      </div>
+      <button onclick="createPassword()">
+        <img
+          src="https://img.icons8.com/pulsar-color/48/mechanistic-analysis.png"
+          alt="mechanistic-analysis"
+        />
+        Generate Password
+      </button>
+    </div>
+
+    <!-- <a style="display: none;"  href="https://icons8.com/icon/cTgJnRhpif49/copy">Copy</a> icon by <a href="https://icons8.com">Icons8</a> -->
+  </body>
+  <script src="./script.js"></script>
+</html>
